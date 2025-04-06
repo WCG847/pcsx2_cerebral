@@ -479,9 +479,6 @@
     <QtUi Include="SetupWizardDialog.ui">
       <FileType>Document</FileType>
     </QtUi>
-    <QtTs Include="Translations\pcsx2-qt_en.ts">
-      <FileType>Document</FileType>
-    </QtTs>
     <QtUi Include="Settings\DebugAnalysisSettingsWidget.ui">
       <FileType>Document</FileType>
     </QtUi>

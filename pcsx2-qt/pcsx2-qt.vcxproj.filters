@@ -22,9 +22,6 @@
     <Filter Include="Debugger">
       <UniqueIdentifier>{ddb40cc4-9996-4ade-b647-eb549063553c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Translations">
-      <UniqueIdentifier>{ad04f939-64a0-4039-97aa-a38b8aa46855}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Debugger\SymbolTree">
       <UniqueIdentifier>{a622b871-62ae-4b70-b9b2-6ee30ce7fa7a}</UniqueIdentifier>
     </Filter>
@@ -936,10 +933,5 @@
     <None Include="Debugger\SymbolTree\SymbolTreeWidget.ui">
       <Filter>Debugger\SymbolTree</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <QtTs Include="Translations\pcsx2-qt_en.ts">
-      <Filter>Translations</Filter>
-    </QtTs>
   </ItemGroup>
 </Project>

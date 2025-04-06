@@ -2132,7 +2132,7 @@ bool EmuFolders::SetDataDirectory(Error* error)
 		if (SUCCEEDED(SHGetKnownFolderPath(FOLDERID_Documents, 0, NULL, &documents_directory)))
 		{
 			if (std::wcslen(documents_directory) > 0)
-				DataRoot = Path::Combine(StringUtil::WideStringToUTF8String(documents_directory), "PCSX2");
+				DataRoot = Path::Combine(StringUtil::WideStringToUTF8String(documents_directory), "PCSX2_Cerebral");
 			CoTaskMemFree(documents_directory);
 		}
 #elif defined(__linux__) || defined(__FreeBSD__)
